@@ -33,9 +33,7 @@ class _ToDoPageState extends State<ToDoPage> {
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   hintText: "Type Your Name",
-
                 ),
-
                 ),
               ElevatedButton(onPressed: printValue, child: const Text("Tap")),
             ],
